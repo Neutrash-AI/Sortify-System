@@ -1,116 +1,167 @@
-# SORTIFY 🚀
-Proses penyortiran secara otomatis
+# **PROYEK SENIOR TI** 📌
 
-## Anggota Tim 👥
+📍 **Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada**
 
-### Benaya Imanuela
-- **NIM:** 22/494790/TK/54313
-- **Role:** UI/UX Designer, Software Engineer 🎨💻
+---
 
-### Nur Rochman
-- **NIM:** 22/493623/TK/54086
-- **Role:** AI Engineer, Cloud Engineer 🤖☁️
+## **👥 Anggota Tim**
 
-“Project Senior Project TI”
+### **Benaya Imanuela**
 
-Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada
+- 🆔 **NIM:** 22/494790/TK/54313
+- 🏆 **Role:** UI/UX Designer, Software Engineer 🎨💻
 
-Nama Produk: Sortify
+### **Nur Rochman**
 
-Jenis Produk: Layanan Software 
+- 🆔 **NIM:** 22/493623/TK/54086
+- 🏆 **Role:** AI Engineer, Cloud Engineer 🤖☁️
 
-Latar Belakang:
-Sampah yang tidak terpilah dengan baik masih menjadi masalah utama dalam pengelolaan lingkungan. Banyak masyarakat kurang memahami cara memilah sampah karena kurangnya edukasi serta minimnya fasilitas yang mendukung pemilahan otomatis. Akibatnya, sampah organik, anorganik, dan bahan berbahaya sering bercampur, sehingga proses daur ulang menjadi sulit dan meningkatkan volume sampah yang berakhir di tempat pembuangan akhir (TPA).
+---
 
-Salah satu kendala utama dalam pemilahan sampah adalah kurangnya kesadaran dan fasilitas yang mendukung. Banyak tempat sampah umum masih menggunakan sistem manual tanpa teknologi untuk membantu pengguna membuang sampah di tempat yang sesuai. Oleh karena itu, dibutuhkan solusi berbasis teknologi yang dapat membantu masyarakat dalam memilah sampah dengan mudah dan cepat.
+## **📌 Nama Produk:** **Sortify**
 
-Untuk mengatasi masalah ini, kami mengembangkan Sortify, sebuah sistem berbasis kecerdasan buatan (AI), jaringan komputer, dan komputasi awan yang dapat mengenali jenis sampah melalui gambar. Dengan menggunakan teknologi image processing, aplikasi ini dapat mendeteksi jenis sampah dari gambar yang ditampilkan oleh pengguna, lalu mengirimkan hasil klasifikasi ke cloud.  Hasil klasifikasi ini akan ditampilkan dalam bentuk antarmuka web, sehingga pengguna dapat mengakses layanan ini dari berbagai perangkat dengan koneksi internet.
+🖥️ **Jenis Produk:** Layanan Software untuk mengelola proses penyortiran sampah secara otomatis
 
+---
 
-Rumusan Permasalahan:
-Bagaimana mengembangkan model AI berbasis image processing yang dapat mengenali dan mengklasifikasikan sampah dengan akurat?
-Bagaimana merancang sistem berbasis jaringan komputer yang memungkinkan pengguna mengakses layanan klasifikasi sampah melalui aplikasi web secara real-time?
-Bagaimana mengintegrasikan kecerdasan buatan dengan layanan cloud agar pemrosesan gambar dan penyimpanan data dapat dilakukan secara efisien dan dapat diakses kapan saja?
-Bagaimana memastikan bahwa aplikasi web memiliki antarmuka yang ramah pengguna serta dapat diakses dengan lancar di berbagai perangkat dan jaringan?
+## **🌍 Latar Belakang**
 
-Solusi:
-Model AI menggunakan klasifikasi untuk membedakan sampah yang bisa didaur ulang dan tidak. 
-Kode backend dan model AI di deploy di cloud dan diakses via Rest API / Web Socket oleh kode frontend. 
-Kode Frontend dijalankan secara lokal (atau di raspberry pi) dan terkoneksi dengan ESP32 lewat koneksi serial untuk menggerakkan servo. 
-Servo digerakkan dengan memproses input kamera yang diproses model AI yang menghasilkan output 0 atau 1 dan dikonversi ke sinyal pwm untuk menggerakkan servo ke kiri [0] atau kanan [1] (dengan default di tengah dengan anggapan bagian kiri adalah sampah yang tidak bisa didaur ulang dan bagian kanan adalah yang bisa didaur ulang)
-Dengan solusi ini, NeuTrash dapat membantu perusahaan atau pemerintah dalam mengelola sampah dengan lebih optimal (B2B).
+♻️ **Masalah Pengelolaan Sampah:**
 
-Rancangan Fitur Solusi:
-Fitur
-Keterangan
-Klasifikasi Sampah
-Membedakan mana sampah yang dapat didaur ulang dan tidak berdasarkan inputan gambar
-Dashboard monitoring
-Mengakumulasi total sampah dan persentase sampah yang dapat didaur ulang dan tidak yang dapat digunakan untuk analisis lanjutan
+- Sampah yang tidak terpilah dengan baik masih menjadi **masalah utama** dalam pengelolaan lingkungan.
+- Kurangnya **edukasi** dan **fasilitas** menyebabkan sampah organik, anorganik, dan bahan berbahaya bercampur.
+- Pemilahan manual masih kurang efektif dan berkontribusi terhadap peningkatan **volume sampah di TPA**.
 
-Analisis Kompetitor:
-KOMPETITOR 1
-Nama
-Trashbot by CleanRobotics
-Jenis Kompetitor
-Direct
-Jenis Produk
-Smart trash bin berbasis AI yang dapat memilah sampah secara otomatis
-Target Customer
-Perusahaan dan institusi yang ingin menerapkan teknologi daur ulang otomatis.
-Pemerintah daerah yang menerapkan sistem smart city.
-Kelebihan
-Kekurangan
-Teknologi AI yang dapat memilah sampah secara real-time
-Terintegrasi dengan sistem smart waste management
-Meminimalisir kesalahan manusia dalam memilah sampah
-Produk berbentuk hardware (tidak berbasis aplikasi web)
-Harga mahal dan sulit diimplementasikan di skala rumah tangga
-Tidak tersedia di semua negara
-Key Competitive Advantage & Unique Value
-Trashbot menawarkan sistem pemilahan sampah otomatis berbasis AI, tetapi kurang fleksibel untuk pengguna rumahan karena berbentuk hardware dan harganya mahal.
+💡 **Solusi yang Dibutuhkan:**
 
+- Teknologi **berbasis AI** yang bisa membantu masyarakat memilah sampah dengan **mudah dan cepat**.
+- Sistem yang mampu mengenali jenis sampah melalui **image processing**.
+- Hasil klasifikasi ditampilkan dalam **antarmuka web** sehingga dapat diakses dari berbagai perangkat dengan **koneksi internet**.
 
-KOMPETITOR 2
-Nama
-EcoBin
-Jenis Kompetitor
-Direct
-Jenis Produk
-Tempat sampah pintar berbasis AI dan IoT
-Target Customer
-Pemerintah kota yang ingin meningkatkan efisiensi pengelolaan sampah
-Komunitas dan institusi yang peduli terhadap lingkungan
-Kelebihan
-Kekurangan
-Pemilahan sampah otomatis menggunakan sensor dan pemrosesan data
-Pemantauan kapasitas tempat sampah secara real-time
-Mendukung pengelolaan sampah yang efisien
-Memerlukan investasi infrastruktur untuk implementasi
-Fokus pada hardware, kurang fleksibel dibandingkan solusi berbasis aplikasi
-Key Competitive Advantage & Unique Value
-Integrasi teknologi AI dan IoT dalam bentuk fisik untuk pemilahan sampah otomatis.
+---
 
+## **❓ Rumusan Permasalahan**
 
-KOMPETITOR 3
-Nama
-SMASH (Smart Mobile Application for Smart Handling)
-Jenis Kompetitor
-Direct
-Jenis Produk
-Aplikasi manajemen sampah berbasis mobile
-Target Customer
-Masyarakat umum yang ingin terhubung dengan bank sampah
-Pemerintah daerah yang membutuhkan sistem manajemen sampah
-Kelebihan
-Kekurangan
-Memfasilitasi koneksi antara pengguna dengan bank sampah terdekat
-Menyediakan informasi jenis sampah yang diterima oleh bank sampah
-Fitur e-Smash untuk manajemen sampah di tingkat pemerintah daerah
-Tidak memiliki fitur pemilahan sampah otomatis berbasis AI
-Bergantung pada partisipasi aktif dari bank sampah dan pengguna
-Key Competitive Advantage & Unique Value
-Platform yang menghubungkan masyarakat dengan bank sampah melalui aplikasi mobile
+1️⃣ **Bagaimana mengembangkan model AI berbasis image processing yang dapat mengenali dan mengklasifikasikan sampah dengan akurat?**  
+2️⃣ **Bagaimana merancang sistem berbasis jaringan komputer yang memungkinkan pengguna mengakses layanan klasifikasi sampah secara real-time?**  
+3️⃣ **Bagaimana mengintegrasikan AI dengan layanan cloud agar pemrosesan gambar dan penyimpanan data efisien serta dapat diakses kapan saja?**  
+4️⃣ **Bagaimana memastikan aplikasi web memiliki antarmuka yang ramah pengguna serta dapat diakses di berbagai perangkat dan jaringan?**
 
+---
 
+## **🚀 Solusi yang Ditawarkan**
 
+✅ **AI untuk Klasifikasi Sampah:**
+
+- Menggunakan **model klasifikasi** untuk membedakan sampah yang **dapat didaur ulang dan tidak**.
+
+✅ **Deploy Backend dan AI di Cloud:**
+
+- Model AI dan kode backend **di-deploy di cloud** agar dapat diakses melalui **REST API/WebSocket** oleh frontend.
+
+✅ **Koneksi dengan Perangkat Keras:**
+
+- Frontend berjalan di **lokal/Raspberry Pi** dan terkoneksi dengan **ESP32** melalui koneksi **serial** untuk menggerakkan **servo**.
+- **Servo bergerak** berdasarkan input kamera yang diproses oleh model AI:
+  - **0 → kiri (sampah tidak bisa didaur ulang)**
+  - **1 → kanan (sampah bisa didaur ulang)**
+  - **Default: tengah**
+
+✅ **Potensi Implementasi:**
+
+- **B2B (Business-to-Business)** → Membantu **perusahaan** atau **pemerintah** dalam mengelola sampah secara lebih optimal.
+
+---
+
+## **🔧 Rancangan Fitur Solusi**
+
+| 🛠️ **Fitur**                | 📜 **Keterangan**                                                                             |
+| --------------------------- | --------------------------------------------------------------------------------------------- |
+| 📸 **Klasifikasi Sampah**   | Membedakan mana sampah yang dapat didaur ulang dan tidak berdasarkan input gambar             |
+| 📊 **Dashboard Monitoring** | Mengakumulasi total sampah dan persentase yang dapat didaur ulang untuk analisis lebih lanjut |
+
+---
+
+## **⚖️ Analisis Kompetitor**
+
+### **🛠️ KOMPETITOR 1: Trashbot by CleanRobotics**
+
+🗂 **Jenis:** Direct Competitor  
+📌 **Jenis Produk:** Smart Trash Bin berbasis AI
+
+🎯 **Target Customer:**
+
+- Perusahaan dan institusi yang ingin menerapkan **teknologi daur ulang otomatis**.
+- Pemerintah daerah dengan konsep **smart city**.
+
+💪 **Kelebihan:**  
+✔️ Teknologi AI dapat memilah sampah secara **real-time**.  
+✔️ Terintegrasi dengan **sistem smart waste management**.  
+✔️ Meminimalisir kesalahan manusia dalam memilah sampah.
+
+❌ **Kekurangan:**
+
+- Produk berbentuk **hardware**, bukan aplikasi web.
+- Harga **mahal** dan sulit diimplementasikan di **rumah tangga**.
+- Tidak tersedia di semua negara.
+
+🔥 **Unique Value Proposition:**  
+✅ **Sistem pemilahan sampah berbasis AI** tetapi kurang fleksibel karena berbentuk hardware dengan harga mahal.
+
+---
+
+### **🛠️ KOMPETITOR 2: EcoBin**
+
+🗂 **Jenis:** Direct Competitor  
+📌 **Jenis Produk:** Tempat Sampah Pintar berbasis AI dan IoT
+
+🎯 **Target Customer:**
+
+- **Pemerintah kota** yang ingin meningkatkan efisiensi pengelolaan sampah.
+- **Komunitas** dan **institusi** yang peduli terhadap lingkungan.
+
+💪 **Kelebihan:**  
+✔️ **Pemilahan sampah otomatis** menggunakan sensor dan pemrosesan data.  
+✔️ **Pemantauan kapasitas tempat sampah** secara real-time.  
+✔️ Mendukung **pengelolaan sampah yang efisien**.
+
+❌ **Kekurangan:**
+
+- Memerlukan **investasi infrastruktur** untuk implementasi.
+- Fokus pada **hardware**, kurang fleksibel dibandingkan solusi berbasis **aplikasi**.
+
+🔥 **Unique Value Proposition:**  
+✅ **Integrasi AI dan IoT dalam bentuk fisik** untuk pemilahan sampah otomatis.
+
+---
+
+### **🛠️ KOMPETITOR 3: SMASH (Smart Mobile Application for Smart Handling)**
+
+🗂 **Jenis:** Direct Competitor  
+📌 **Jenis Produk:** Aplikasi Manajemen Sampah Berbasis Mobile
+
+🎯 **Target Customer:**
+
+- **Masyarakat umum** yang ingin terhubung dengan **bank sampah**.
+- **Pemerintah daerah** yang membutuhkan sistem manajemen sampah.
+
+💪 **Kelebihan:**  
+✔️ **Menghubungkan pengguna** dengan **bank sampah terdekat**.  
+✔️ Menyediakan informasi **jenis sampah yang diterima** oleh bank sampah.  
+✔️ Fitur **e-Smash** untuk manajemen sampah di tingkat pemerintah daerah.
+
+❌ **Kekurangan:**
+
+- **Tidak memiliki fitur pemilahan sampah otomatis berbasis AI**.
+- Bergantung pada **partisipasi aktif** dari bank sampah dan pengguna.
+
+🔥 **Unique Value Proposition:**  
+✅ **Menghubungkan masyarakat dengan bank sampah** melalui aplikasi mobile.
+
+---
+
+## **💡 Kesimpulan**
+
+**Sortify** hadir sebagai **solusi inovatif** berbasis **AI, cloud computing, dan IoT** yang dapat membantu masyarakat memilah sampah secara **otomatis dan efisien**. Dengan solusi ini, kami berharap dapat meningkatkan **kesadaran masyarakat** dalam memilah sampah serta membantu **pemerintah dan perusahaan** dalam mengelola sampah dengan lebih optimal! 🚀🌱
+
+---
