@@ -51,6 +51,8 @@
 
 ## **🚀 Solusi yang Ditawarkan**
 
+![Demo](./reference-project.png)
+
 ✅ **AI untuk Klasifikasi Sampah:**
 
 - Menggunakan **model klasifikasi** untuk membedakan sampah yang **dapat didaur ulang dan tidak**.
@@ -163,5 +165,13 @@
 ## **💡 Kesimpulan**
 
 **Sortify** hadir sebagai **solusi inovatif** berbasis **AI, cloud computing, dan IoT** yang dapat membantu masyarakat memilah sampah secara **otomatis dan efisien**. Dengan solusi ini, kami berharap dapat meningkatkan **kesadaran masyarakat** dalam memilah sampah serta membantu **pemerintah dan perusahaan** dalam mengelola sampah dengan lebih optimal! 🚀🌱
+
+---
+
+## **📚 Referensi**
+
+1. Sitinut Waisara. (2025, Februari 15). Smart Trash Bin with Waste separator. YouTube. [https://youtu.be/33T43l-gu78?si=5xhUgkeN2CLo4s3u](https://youtu.be/33T43l-gu78?si=5xhUgkeN2CLo4s3u)
+
+2. Yusuf, Y. Y. N., Arbaatun, C. N., & Prawita, F. N. (2020). MATRASH: Pemanfaatan machine learning pada smart trash bin berbasis IoT yang terintegrasi dengan bank sampah. Universitas Telkom. Diakses dari [https://openlibrary.telkomuniversity.ac.id/pustaka/files/162087/jurnal_eproc/matrash-pemanfaatan-machine-learning-pada-smart-trash-bin-berbasis-iot-yang-terintegrasi-dengan-bank-sampah.pdf](https://openlibrary.telkomuniversity.ac.id/pustaka/files/162087/jurnal_eproc/matrash-pemanfaatan-machine-learning-pada-smart-trash-bin-berbasis-iot-yang-terintegrasi-dengan-bank-sampah.pdf)
 
 ---
