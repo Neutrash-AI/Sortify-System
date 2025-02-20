@@ -160,7 +160,15 @@
 🔥 **Unique Value Proposition:**  
 ✅ **Menghubungkan masyarakat dengan bank sampah** melalui aplikasi mobile.
 
----
+📌 **Tabel perbandingan:**  
+
+| **Fitur**                   | **Sortify** | **Trashbot** | **EcoBin** | **SMASH** |
+| --------------------------- | ----------- | ------------ | ---------- | --------- |
+| AI untuk Klasifikasi Sampah | ✅ Ya       | ✅ Ya        | ✅ Ya      | ❌ Tidak  |
+| Dapat Digunakan di Rumah    | ✅ Ya       | ❌ Tidak     | ❌ Tidak   | ✅ Ya     |
+| Harga Akses Terjangkau      | ✅ Ya       | ❌ Mahal     | ❌ Mahal   | ✅ Ya     |
+| Berbasis Cloud & Web        | ✅ Ya       | ❌ Tidak     | ❌ Tidak   | ✅ Ya     |
+| Mudah Dikembangkan          | ✅ Ya       | ❌ Tidak     | ❌ Tidak   | ✅ Ya     |
 
 ---
 
@@ -186,7 +194,7 @@ Dalam pengembangan **Sortify**, kami menggunakan **Metodologi Agile (Scrum)** ka
 | **Pemerintah & Dinas Lingkungan Hidup** 🏛️      | Membantu dalam optimalisasi pengelolaan sampah dan peningkatan efisiensi daur ulang.                                   |
 | **Perusahaan pengelola sampah & daur ulang** 🏢 | Mendukung pengelolaan limbah dengan otomatisasi dan analisis data untuk meningkatkan efektivitas pemrosesan sampah.    |
 | **Mall, Perkantoran, dan Tempat Umum** 🏠       | Mengurangi kontaminasi sampah dan meningkatkan tingkat pemilahan sejak awal.                                           |
-| **Lembaga riset & akademisi** 🌿               | Memanfaatkan data yang dikumpulkan untuk penelitian tentang pola pembuangan sampah dan efektivitas program daur ulang. |
+| **Lembaga riset & akademisi** 🌿                | Memanfaatkan data yang dikumpulkan untuk penelitian tentang pola pembuangan sampah dan efektivitas program daur ulang. |
 
 ---
 
