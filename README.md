@@ -4,7 +4,6 @@
 
 ---
 
-=======
 ## **👥 Anggota Tim**
 
 ### **Benaya Imanuela**
