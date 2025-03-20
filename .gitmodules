@@ -4,6 +4,9 @@
 [submodule "Sortify-BE"]
 	path = Sortify-BE
 	url = git@github.com:Neutrash-AI/Sortify-BE.git
+[submodule "Sortify-Camera"]
+	path = Sortify-Camera
+	url = git@github.com:Neutrash-AI/Sortify-Camera.git
 [submodule "Sortify-Hardware"]
 	path = Sortify-Hardware
 	url = git@github.com:Neutrash-AI/Sortify-Hardware.git

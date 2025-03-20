@@ -20,4 +20,5 @@ git_pull_repo() {
 git_pull_repo "" "main"
 git_pull_repo "Sortify-FE" "main"
 git_pull_repo "Sortify-BE" "main"
+git_pull_repo "Sortify-Camera" "main"
 git_pull_repo "Sortify-Hardware" "main"
