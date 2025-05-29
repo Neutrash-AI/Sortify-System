@@ -161,7 +161,7 @@
 🔥 **Unique Value Proposition:**  
 ✅ **Menghubungkan masyarakat dengan bank sampah** melalui aplikasi mobile.
 
-📌 **Tabel perbandingan:**  
+📌 **Tabel perbandingan:**
 
 | **Fitur**                   | **Sortify** | **Trashbot** | **EcoBin** | **SMASH** |
 | --------------------------- | ----------- | ------------ | ---------- | --------- |
@@ -271,6 +271,12 @@ Berikut adalah beberapa **requirement fungsional utama** berdasarkan **use case*
 2. Fitur untuk menampilkan output dari kamera yang digunakan untuk mendeteksi objek
 3. Fitur untuk menampilkan total dan jenis sampah yang berada di dalam tempat sampah
 4. Fitur untuk menampilkan persentase sampah yang dapat didaur ulang dan tidak
+
+---
+
+## 📌 Arsitektur Sistem
+
+![Arsitektur](./assets/Sortify%20System%20Diagram.png)
 
 ---
 
